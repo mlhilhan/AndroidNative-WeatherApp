@@ -62,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:hint="city name"
+                    android:hint="@string/city_name"
                     android:inputType="text"
                     android:lines="1"
                     android:textStyle="bold" />
@@ -112,14 +112,14 @@
                         android:id="@+id/textCountryCode"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Country Code"
+                        android:text="@string/country_code"
                         android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textCityName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="City Name"
+                        android:text="@string/city_name"
                         android:textSize="17sp" />
 
                 </LinearLayout>
@@ -148,22 +148,22 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Humidity" />
+                        android:text="@string/humidity" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Wind Speed" />
+                        android:text="@string/wind_speed" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Latitude" />
+                        android:text="@string/latitude" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Longitude" />
+                        android:text="@string/longitude" />
 
                 </LinearLayout>
 

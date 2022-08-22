@@ -65,8 +65,8 @@ class MainActivity : AppCompatActivity() {
                 textDegree.text = data.main.temp.toString() + " °C"
                 textCountryCode.text = data.sys.country.toString()
                 textCityName.text = data.name.toString()
-                textHumidity.text = ": " + data.main.humidity.toString()
-                textSpeed.text = ": " + data.wind.speed.toString() + " %"
+                textHumidity.text = ": " + data.main.humidity.toString() + " %"
+                textSpeed.text = ": " + data.wind.speed.toString() + " km/s"
                 textLat.text = ": " + data.coord.lat.toString()
                 textLon.text = ": " + data.coord.lon.toString()
 

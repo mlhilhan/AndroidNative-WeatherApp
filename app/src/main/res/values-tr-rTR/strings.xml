@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">Hava Durumu Uygulaması</string>
+    <string name="city_name">Şehir Adı</string>
+    <string name="country_code">Ülke Kodu</string>
+    <string name="humidity">Nem</string>
+    <string name="wind_speed">Rüzgar Hızı</string>
+    <string name="latitude">Enlem</string>
+    <string name="longitude">Boylam</string>
 </resources>
